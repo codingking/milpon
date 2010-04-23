@@ -140,6 +140,7 @@
 		92BFB9BF11610ABD0024023D /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BFB94D11610ABD0024023D /* CJSONDeserializer.m */; };
 		92BFB9C011610ABD0024023D /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BFB94F11610ABD0024023D /* CJSONScanner.m */; };
 		92BFB9C111610ABD0024023D /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BFB95111610ABD0024023D /* CJSONSerializer.m */; };
+		92C80DD611819908007B92F6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F7189B114E228E00925BB6 /* CoreData.framework */; };
 		92D21ED4115DF8080074E93A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D21ED3115DF8080074E93A /* RootViewController.m */; };
 		92D21FB5115E077B0074E93A /* icon_overview_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D21FB4115E077B0074E93A /* icon_overview_disabled.png */; };
 		92D21FDC115E08FF0074E93A /* icon_list_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D21FDA115E08FF0074E93A /* icon_list_disabled.png */; };
@@ -625,6 +626,7 @@
 				B916108A0F56618400473A95 /* libsqlite3.dylib in Frameworks */,
 				B916108D0F56686600473A95 /* SystemConfiguration.framework in Frameworks */,
 				92BFB8A011610A670024023D /* Security.framework in Frameworks */,
+				92C80DD611819908007B92F6 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,7 @@
 //  Copyright deadbeaf.org 2008. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
 #import "RTMSynchronizer.h"
 
 @class RTMAuth;
@@ -22,6 +23,11 @@
    ProgressView                    *progressView;
    UIImageView                     *arrowImageView;
    RefreshingViewController        *refreshingViewController;
+
+   // Core Data
+   NSManagedObjectModel         *managedObjectModel;
+   NSManagedObjectContext       *managedObjectContext;
+   NSPersistentStoreCoordinator *persistentStoreCoordinator;
 }
 
 @property (nonatomic, retain) UIWindow *window;
@@ -35,4 +41,7 @@
 - (void) showArrow;
 - (void) hideArrow;
 - (IBAction)launchSatisfactionRemoteComponent:(id) sender;
+
+- (NSString *)applicationDocumentsDirectory;
+
 @end
